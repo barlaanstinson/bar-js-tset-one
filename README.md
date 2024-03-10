@@ -1,11 +1,5 @@
 # auto-green
 
-[![Build Status](https://github.com/justjavac/auto-green/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/auto-green/actions)
-
-自动保持 GitHub 提交状态常绿。
-
-> a commit a day keeps your girlfriend away.
-
 ## 原理
 
 使用 GitHub Actions 的定时任务功能，每隔一段时间自动执行 `git commit`，提交信息为 "a commit a day keeps your girlfriend away"，灵感来自知乎问题[在 GitHub 上保持 365 天全绿是怎样一种体验？](https://www.zhihu.com/question/34043434/answer/57826281)下某匿名用户的回答：
@@ -44,13 +38,6 @@
 **注**：由于 GitHub Actions 的限制，如果设置为 `* * * * *` 实际的执行频率为每 5 分执行一次。
 
 ## License
-
-[auto-green](https://github.com/AndersonHJB/AutoGreen) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
-
-
-
-![公众号：AI悦创.jpg](README.assets/公众号：AI悦创.jpg)
-
 
 ```
 name: ci
